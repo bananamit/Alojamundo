@@ -1,0 +1,72 @@
+.listing-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.create-listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.create-listing-form input,
+.create-listing-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-listing-form textarea {
+  resize: vertical;
+}
+
+.create-listing-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-listing-form button:hover {
+  background-color: #0056b3;
+}
+
+.help-block {
+  color: #5e5e5e;
+}
+
+.image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 0.5rem;
+}

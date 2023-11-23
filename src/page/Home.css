@@ -1,0 +1,34 @@
+.home-container {
+  /* Estilos para el contenedor principal de Home */
+}
+
+.search-bar {
+  display: flex;
+  /* Estilos para la barra de búsqueda */
+}
+
+.search-button {
+  /* Estilos para el botón de búsqueda */
+}
+
+.properties-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  /* Estilos para la lista de propiedades */
+}
+
+.property-card {
+  /* Estilos para cada tarjeta de propiedad */
+}
+
+.property-image {
+  height: 200px;
+  background-color: #eee;
+  /* Añade tus propios estilos para la imagen de la propiedad aquí */
+}
+
+.property-info {
+  padding: 0.5rem;
+  /* Estilos para la información de la propiedad */
+}
