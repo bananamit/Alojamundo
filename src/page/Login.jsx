@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo.png";
 import "./Login.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import useLogin from "../hooks/useLogin";
 
 function Login() {
@@ -67,7 +67,7 @@ function Login() {
       </form>
       <div className="register">
         <p>
-          ¿No tienes cuenta? <a href="/register">Regístrate</a>
+          ¿No tienes cuenta? <Link to="/register">Regístrate</Link>
         </p>
       </div>
     </div>

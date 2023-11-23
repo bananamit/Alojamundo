@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Register.css";
 import Logo from "../assets/logo.png";
 import useRegister from "../hooks/useRegister";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Register() {
   const [nombre, setNombre] = useState("");
@@ -162,7 +162,7 @@ function Register() {
       </form>
       <div className="login">
         <p>
-          ¿Ya tienes una cuenta? <a href="/login">Inicia sesion</a>
+          ¿Ya tienes una cuenta? <Link to="/login">Inicia sesion</ Link>
         </p>
       </div>
     </div>
