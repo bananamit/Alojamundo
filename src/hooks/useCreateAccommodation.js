@@ -1,6 +1,6 @@
 import { useMutation } from "react-query";
 
-const API_URL = "http://localhost:8080/accomodation";
+const API_URL = "https://alojamundobackend.onrender.com/accomodation";
 
 const useCreateAccommodation = () => {
   return useMutation((accommodationData) => {

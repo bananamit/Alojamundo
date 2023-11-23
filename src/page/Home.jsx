@@ -4,7 +4,7 @@ import PropertyCard from "../components/PropertyCard";
 import "./Home.css";
 
 const fetchAccommodations = async () => {
-  const response = await fetch("http://localhost:8080/accomodation");
+  const response = await fetch("https://alojamundobackend.onrender.com/accomodation");
   if (!response.ok) {
     throw new Error("Network response was not ok");
   }
